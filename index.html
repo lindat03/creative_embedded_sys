@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CES Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Ponomar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Linda Tang</h1>
+        <p class="subtitle">Project Portfolio for COMS3930: Creative Embedded Systems</p>
+    </header>
+
+    <main>
+        <!-- Project 1 -->
+        <article class="project" style="--index: 0">
+            <h2 class="project-title">Soldering Sculpture</h2>
+            <p class="project-description">
+                A small sculpture created with a protoboard, a 10 pin header, and a brass rod, all soldered together to form organic spiral shapes.
+            </p>
+            
+            <div class="project-gallery">
+                <div class="project-image">
+                    <img src="imgs/solderingproject5.jpeg" alt="Soldering Sculpture">
+                </div>
+                <div class="project-image">
+                    <img src="imgs/solderingproject4.jpeg" alt="Soldering Sculpture">
+                </div>
+                <div class="project-image">
+                    <img src="imgs/solderingproject1.jpeg" alt="Soldering Sculpture">
+                </div>
+                <div class="project-image">
+                    <img src="imgs/solderingproject2.jpeg" alt="Soldering Sculpture">
+                </div>
+                <div class="project-image">
+                    <img src="imgs/solderingproject3.jpeg" alt="Soldering Sculpture">
+                </div>
+                
+            </div>
+
+            <div class="project-reflection">
+                I think it’s very important to use art to critique, especially when our medium is technology. 
+                When I was thinking about the direction I wanted to go with my 
+                project, I thought it would be insightful to use technology to critique technology itself. 
+                And so for my sculpture, I decided to create something that addresses the growing concerns 
+                surrounding technological surveillance. The spiraling brass rod evokes an 
+                enclosed space (almost like barbed wire around a prison) while also representing an all-seeing eye, 
+                symbolizing how surveillance systems 
+                keep us trapped within invisible boundaries of control and order. I think working with technology as the medium itself
+                creates a very interesting opportunity to explore this theme.
+
+            </div>
+        </article>
+
+        <div class="divider"></div>
+
+        <article class="project" style="--index: 0">
+            <h2 class="project-title">PCB Pendant</h2>
+            <p class="project-description">
+                This project implements a small flashing LED pendant driven by a 555-timer. The design supports a low-voltage operation suitable for small coin-style cells. The PCB board is milled into a heart shape to represent a beating heart.
+            </p>
+
+            <a href="https://github.com/lindat03/PCBPendant#">GITHUB REPO</a>
+            
+            <div class="project-gallery">
+                <div class="project-image">
+                    <img src="imgs/compressed_pcbpendant3.jpeg" alt="PCB Pendant">
+                </div>
+                <div class="project-image">
+                    <img src="imgs/compressed_pcbpendant2.jpeg" alt="PCB Pendant">
+                </div>
+                <div class="project-image">
+                    <img src="imgs/compressed_pcbpendant1.jpeg" alt="PCB Pendant">
+                </div>
+            </div>
+
+            <div class="project-reflection">
+                I really enjoyed combining the technical aspects of this project with its creative design. Obviously this
+                project was just to get comfortable with creating our own circuits and designing something a bit more
+                complicated, but I really enjoyed the process of creating a small, functional prototype that I could
+                then use to make a more complex and creative project in the future. When designing the PCB board, I tried to
+                make the circuitry as compact as possible. In retrospect, I wish I filled out the board more completely so 
+                that the milling could've filled out the outline a bit more.
+            </div>
+        </article>
+        <article class="project" style="--index: 0">
+            <h2 class="project-title">TTGO Generative Text Art Display</h2>
+            <p class="project-description">
+                This project implements a generative art installation on an ESP32 TTGO T-Display, 
+                simulating a live security camera feed that logs randomized student ID scan events. 
+                Displayed in the Milstein hallway, the piece explores themes of surveillance, identity, 
+                and the invisible data infrastructure of campus life.
+            </p>
+
+            <a href="https://github.com/lindat03/TTGOProject">GITHUB REPO</a>
+            
+            <div class="project-gallery">
+                <div class="project-image">
+                    <img src="imgs/compressed_ttgo1.jpeg" alt="TTGO Display Installation">
+                </div>
+                <div class="project-image">
+                    <video controls autoplay muted loop>
+                        <source src="imgs/ttgovid2_compressed.MOV">
+                    </video>
+                </div>
+                <div class="project-image">
+                    <video controls autoplay muted loop>
+                        <source src="imgs/ttgovid1_compressed.MOV">
+                    </video>
+                </div>
+                <div class="project-image">
+                    <img src="imgs/compressed_ttgo2.png">
+                </div>
+            </div>
+
+            <div class="project-reflection">
+                I really enjoyed working with software for the first time and I feel like I pushed myself
+                the most creatively in this project. Seeing it installed alongside everyone else's 
+                devices in the hallway made the individual piece feel like part of a larger, eerie 
+                system, which was a happy accident of the collaborative format. I've really struggled with
+                how I feel about the increased security and surveillance of our campus these past couple of years, and
+                I wanted to explore how security and the things that are supposed to make us feel "safe" can actually
+                have the opposite effect. Overall, super happy with how this project turned out!
+            </div>
+        </article>
+    </main>
+</body>
+</html>
