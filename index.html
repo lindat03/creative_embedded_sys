@@ -15,7 +15,7 @@
     </header>
 
     <main>
-        <!-- Project 1 -->
+        <!-- SOLDERING SCULPTURE -->
         <article class="project" style="--index: 0">
             <h2 class="project-title">Soldering Sculpture</h2>
             <p class="project-description">
@@ -56,7 +56,7 @@
         </article>
 
         <div class="divider"></div>
-
+        <!-- PCD PENDANT -->
         <article class="project" style="--index: 0">
             <h2 class="project-title">PCB Pendant</h2>
             <p class="project-description">
@@ -86,6 +86,8 @@
                 that the milling could've filled out the outline a bit more.
             </div>
         </article>
+
+        <!-- TTGO GENERATIVE TEXT ART-->
         <article class="project" style="--index: 0">
             <h2 class="project-title">TTGO Generative Text Art Display</h2>
             <p class="project-description">
@@ -124,6 +126,47 @@
                 how I feel about the increased security and surveillance of our campus these past couple of years, and
                 I wanted to explore how security and the things that are supposed to make us feel "safe" can actually
                 have the opposite effect. Overall, super happy with how this project turned out!
+            </div>
+        </article>
+
+        <!-- CAPACITATIVE TOUCH -->
+        <article class="project" style="--index: 0">
+            <h2 class="project-title">Wishing Jar — Capacitive Touch Interface</h2>
+            <p class="project-description">
+                This project transforms a glass Mason jar into a magical interactive device using 
+                capacitive touch sensors and an ESP32 TTGO T-Display. Copper tape strips on the 
+                outside of the jar detect touch, and the TTGO's onboard screen glows warm yellow 
+                as the user rubs the jar for three continuous seconds. Once awakened, the screen 
+                transitions to a calm blue, inviting the user to speak a wish into the lid. Tapping 
+                the lid sends the wish — the screen erupts in flashing colors. 
+            </p>
+
+            <a href="https://github.com/lindat03/TouchCapacity">GITHUB REPO</a>
+            
+            <div class="project-gallery">
+                <div class="project-image">
+                    <img src="imgs/wishing_jar1.jpeg" alt="Wishing Jar with copper tape strips">
+                </div>
+                <div class="project-image">
+                    <img src="imgs/wishing_jar2.jpeg" alt="TTGO screen glowing blue through jar base">
+                </div>
+                <div class="project-image">
+                    <video controls autoplay muted loop>
+                        <source src="imgs/wishing_jar_demo.mov">
+                    </video>
+                </div>
+            </div>
+
+            <div class="project-reflection">
+                This was the most technically challenging project I've worked on so far — learning 
+                to wire capacitive touch sensors, working with the TTGO T-Display, debug serial 
+                connections, and get the ESP32's screen to fade smoothly between colors all at once 
+                was very difficult to manage. I was drawn to the wishing jar concept because 
+                I wanted the interaction to feel ceremonial rather than functional. The three-second 
+                hold before it "awakens" forces a kind of patience that I think most interfaces don't ask 
+                for. I'm interested in how much meaning a simple gesture can carry when the object around 
+                it has the right weight to it, and I think a jar, something we associate with preserving 
+                things, keeping things safe, does that work quietly.
             </div>
         </article>
     </main>
